@@ -3,45 +3,45 @@ body {
 }
 
 #main-navbar {
-	background-color: blue;
-	overflow: hidden;
+  background-color: blue;
+  overflow: hidden;
 }
 
-#navbar-container{
-	width: 100%;
-	position: relative;
-	float: left;
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
 }
 
-#navbar-container ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   position: relative;
   left: 50%;
   float: left;
 }
 
-#navbar-container ul li {
-	float: left;
+#main-navbar ul li {
+  float: left;
   position: relative;
   right: 50%;
   display: block;
 }
 
-#navbar-container ul li a {
-	display: block;
+#main-navbar ul li a {
+  display: block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
 }
 
-#navbar-container ul li a:hover {
-	background-color: #000;
+#main-navbar ul li a:hover {
+  background-color: #000;
 }
 
 #onpage {
-	text-decoration: underline overline;
+  text-decoration: underline overline;
 }
 
 #sidebar {
@@ -68,5 +68,3 @@ body {
 #sidebar ul li a:hover {
   background-color: #000;
 }
-
-
